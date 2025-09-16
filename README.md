@@ -5,15 +5,15 @@ Using this page, you can manipulate any person on social media and hack their ac
 Now it's up to you.
 I'm not responsible.
 
-email
+#email
 ![Alt text](https://github.com/weBenami-LiPi/Fake-Google-Accounts-Sign-In-Page-For-Phishing-Attacks-/blob/main/Screenshot_20250916_234311_Chrome.jpg)
 
 
-login
+#login
 ![Alt text](https://github.com/weBenami-LiPi/Fake-Google-Accounts-Sign-In-Page-For-Phishing-Attacks-/blob/main/Screenshot_20250916_234320_Chrome.jpg)
 
 
-end
+#end
 ![Alt text](https://github.com/weBenami-LiPi/Fake-Google-Accounts-Sign-In-Page-For-Phishing-Attacks-/blob/main/Screenshot_20250916_234326_Chrome.jpg)
 
 
