@@ -90,7 +90,10 @@ Phishing simulation legal & compliance notes (industry best practices).
 ![Alt text](https://github.com/weBenami-LiPi/Fake-Google-Accounts-Sign-In-Page-For-Phishing-Attacks-/blob/main/Screenshot/1.Email.jpg)
 
 
-# Log-in Template 
+# Main v 1.1 Template 
+![Alt text](https://github.com/weBenami-LiPi/Google-Sign-in-Template-/blob/main/Screenshot/main%201.1.jpg)
+
+# Main v 1.0 Template 
 ![Alt text](https://github.com/weBenami-LiPi/Fake-Google-Accounts-Sign-In-Page-For-Phishing-Attacks-/blob/main/Screenshot/2.Login.jpg)
 
 
