@@ -1,20 +1,94 @@
-# Fake Google Account Sign-In Page.
+# Phishing Awareness Simulation — Brief Introduction
 
-Using this page, you can manipulate any person on social media and hack their account.Remember, this is for learning only, do not use it for any bad purpose.
+This is a specification and feature roadmap for an ethical and approved phishing-awareness simulation platform. The purpose is to provide educational training to users to increase security awareness and reduce risk; no real credentials will be collected and the platform is designed to be used in approved environments only.
 
-Now it's up to you.
-I'm not responsible.
+# Main Objective
 
-#email
-![Alt text](https://github.com/weBenami-LiPi/Fake-Google-Accounts-Sign-In-Page-For-Phishing-Attacks-/blob/main/Screenshot_20250916_234311_Chrome.jpg)
+To monitor inappropriate click rates and reporting patterns of employees or users and provide educational feedback.
+
+To provide risk-based training and follow-up micro-learning.
+
+# Key Feature Set
+
+1. Campaign Manager — Templates, schedules, and approved audience configurations.
+
+2. Training Landing-Page Template — Redirects directly to educational materials when the user fills out a written form; no passwords/credentials will be stored.
+
+3. Real-time event tracking — Clicks, reports, and other anonymized metrics will be logged (passwords will not be saved).
+
+4. Risk scoring and custom follow-up training — Send automated training based on user feedback.
+
+5. Consent and compliance controls — Written consent, notice templates, and data-retention policies.
+
+6. Auditable logging — No sensitive information will be collected; logs will only contain customized, anonymized metrics.
+
+7. Integration options — SSO/LDAP verification (for whitelist verification only), optional SIEM integration.
+
+# Architecture (high level)
+
+Frontend: Templated landing pages, admin dashboard
+
+Backend: Campaign schedulers, event-logging service (anonymization mode), risk-scoring microservices
+
+Database: Metrics and audit-trail; no credentials or full form-inputs will be logged
+
+Security: TLS, key-based encryption, role-based access control
+
+# Policies and legal disciplines
+
+Run only on authorized groups; written consent/notice will be enforced before each test.
+
+Clearly state data-retention and privacy policies; passwords or sensitive inputs cannot be stored.
+
+Coordination with locker/legal team and HR is essential; government logos or third-party identities cannot be spoofed.
+
+# Best practices
+
+Tests cannot be used punitively; Incorrect clicks will be managed through learning-rest.
+
+Inform relevant stakeholders (CISO, IT, HR) in advance and have a roll-out plan.
+
+The NIST Phish Scale can be adapted for analyzing the results to understand email-difficulty and staff-risk.
+
+Deployment and configuration guidelines (brief)
+
+1. Run tests first in a staging environment and obtain legal/HR approval.
+
+2. Landing-page templates should have clear notices (show learning-material on the feedback page at the end of the event).
+
+3. Logging configuration: Store only event type, timestamp and anonymized user-id; do not store input content.
+
+4. Schedule regular audits and scans (security reviews).
+
+# Contributor Guidelines
+
+Customized documentation must be added to the PR before adding new campaign templates or training modules.
+
+Code-style and security checklists are attached for contributors (running security rules in CI tests is mandatory).
+
+# Resources and References
+
+NIST Phish Scale / User Guide.
+
+OWASP — Application Security Awareness / Curriculum.
+
+CISA — Teach Employees to Avoid Phishing.
+
+GitHub: Best practices for writing READMEs.
+
+Phishing simulation legal & compliance notes (industry best practices).
 
 
-#login
-![Alt text](https://github.com/weBenami-LiPi/Fake-Google-Accounts-Sign-In-Page-For-Phishing-Attacks-/blob/main/Screenshot_20250916_234320_Chrome.jpg)
+# Email 📨 Template 
+![Alt text](https://github.com/weBenami-LiPi/Fake-Google-Accounts-Sign-In-Page-For-Phishing-Attacks-/blob/main/Screenshots/Screenshot_20250916_234311_Chrome.jpg)
 
 
-#end
-![Alt text](https://github.com/weBenami-LiPi/Fake-Google-Accounts-Sign-In-Page-For-Phishing-Attacks-/blob/main/Screenshot_20250916_234326_Chrome.jpg)
+# Log-in Template 
+![Alt text](https://github.com/weBenami-LiPi/Fake-Google-Accounts-Sign-In-Page-For-Phishing-Attacks-/blob/main/Screenshots/Screenshot_20250916_234320_Chrome.jpg)
+
+
+# Complete Template 
+![Alt text](https://github.com/weBenami-LiPi/Fake-Google-Accounts-Sign-In-Page-For-Phishing-Attacks-/blob/main/Screenshots/Screenshot_20250916_234326_Chrome.jpg)
 
 
 That's all
