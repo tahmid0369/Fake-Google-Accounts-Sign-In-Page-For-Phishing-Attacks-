@@ -1,3 +1,10 @@
+Main 1.0 
+Only supports 'password' pages.
+
+Main 1.1 
+'Email' with 'password' supports these two pages.
+
+
 # Phishing Awareness Simulation — Brief Introduction
 
 This is a specification and feature roadmap for an ethical and approved phishing-awareness simulation platform. The purpose is to provide educational training to users to increase security awareness and reduce risk; no real credentials will be collected and the platform is designed to be used in approved environments only.
